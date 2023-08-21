@@ -1,4 +1,4 @@
-def add(matriz):
+def add_highest(matriz):
     result = 0
     for line in range(len(matriz)):
         higher = matriz[line][0]
@@ -13,6 +13,6 @@ def main():
         [4,5,6],
         [7,8,9]
     ]
-    result = add(matriz)
+    result = add_highest(matriz)
     print("Result:",result)
 main()
