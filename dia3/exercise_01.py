@@ -12,7 +12,7 @@ def generate(bingo,numbers):
                 repeats.append(number)
     for bingo_line in bingo:
         print(bingo_line)
-    print(repeats)
+    print("Repeated Numbers:",repeats)
 def main():
     bingo = []
     numbers = []
