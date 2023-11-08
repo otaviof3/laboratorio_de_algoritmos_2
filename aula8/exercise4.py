@@ -33,6 +33,9 @@ def separate_ip():
             valid.write(f"{line}\n")
         else:
             invalid.write(f"{line}\n")
+    my_file.close()
+    invalid.close()
+    valid.close()
 def main():
     separate_ip()
 main()
