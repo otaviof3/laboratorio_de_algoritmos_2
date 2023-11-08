@@ -8,6 +8,8 @@ def reverse_file():
     reversed_file = open("reverse_lyrics.txt", "w")
     lines = my_file.readlines()
     reverse_txt(len(lines) - 1, reversed_file, lines)
+    my_file.close()
+    reversed_file.close()
 def main():
     reverse_file()
 main()
