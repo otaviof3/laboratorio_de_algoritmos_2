@@ -9,6 +9,7 @@ def control_f():
             line += 1
         else:
             line += 1
+    my_file.close()
 def main():
     control_f()
 main()
